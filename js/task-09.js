@@ -11,6 +11,6 @@ btnEl.addEventListener("click", () => {
   const color = getRandomHexColor();
   // body.style.background = color;
   document.body.style.backgroundColor = color;
-  textEl.bodyChangedColor.textContent = color;
+  textEl.textContent = color;
 
 });
